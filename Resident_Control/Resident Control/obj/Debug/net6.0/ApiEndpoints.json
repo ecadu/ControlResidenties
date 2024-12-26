@@ -1,0 +1,133 @@
+[
+  {
+    "ContainingType": "Resident_Control.Controllers.ResidentiesController",
+    "Method": "AddResidenties",
+    "RelativePath": "Residenties/AddResidenties",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Residenties",
+        "Type": "Resident_Control.Model.Residenties.DTOResidenties",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.ResidentiesController",
+    "Method": "DeleteResidentieById",
+    "RelativePath": "Residenties/DeleteResidentieById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.ResidentiesController",
+    "Method": "GetAllResidenties",
+    "RelativePath": "Residenties/GetAllResidenties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.ResidentiesController",
+    "Method": "UpdateResidentie",
+    "RelativePath": "Residenties/UpdateResidentie",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentie",
+        "Type": "Resident_Control.Data.Entities.Residenties",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "Users/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.UsersController",
+    "Method": "VerificationLoguin",
+    "RelativePath": "Users/VerificationLoguin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLoguin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.VehiclesControll",
+    "Method": "AssignVehicleToUser",
+    "RelativePath": "VehiclesControll/AssignVehicleToUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignVehicleToUser",
+        "Type": "Resident_Control.Model.DTO.AssignVehicleToUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.VehiclesControll",
+    "Method": "GetVehicles",
+    "RelativePath": "VehiclesControll/GetVehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.VehiclesControll",
+    "Method": "RemoveUserVehicle",
+    "RelativePath": "VehiclesControll/RemoveUserVehicle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentiesVehicles",
+        "Type": "Resident_Control.Model.Loja1.ResidentiesVehicles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
