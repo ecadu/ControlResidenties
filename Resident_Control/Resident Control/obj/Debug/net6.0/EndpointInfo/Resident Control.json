@@ -185,7 +185,7 @@
       }
     },
     "/VehiclesControll/RemoveUserVehicle": {
-      "post": {
+      "delete": {
         "tags": [
           "VehiclesControll"
         ],

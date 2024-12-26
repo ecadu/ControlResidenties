@@ -118,7 +118,7 @@
     "ContainingType": "Resident_Control.Controllers.VehiclesControll",
     "Method": "RemoveUserVehicle",
     "RelativePath": "VehiclesControll/RemoveUserVehicle",
-    "HttpMethod": "POST",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

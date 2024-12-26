@@ -3443,11 +3443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\ResidentiesBack\\ResidentControl\\Resident_Control\\Resident Control\\Resident Control.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\newrepos\\Resident_Control\\Resident Control\\Resident Control.csproj",
       "projectName": "Resident Control",
-      "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\ResidentiesBack\\ResidentControl\\Resident_Control\\Resident Control\\Resident Control.csproj",
+      "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\newrepos\\Resident_Control\\Resident Control\\Resident Control.csproj",
       "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\ResidentiesBack\\ResidentControl\\Resident_Control\\Resident Control\\obj\\",
+      "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\newrepos\\Resident_Control\\Resident Control\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

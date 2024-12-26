@@ -36,7 +36,7 @@ namespace Resident_Control.Controllers
         {
             try
             {
-                return Ok(_residentiesBusiness.AddResidenties(Residenties));
+                return Ok(_residentiesBusiness.AddResidenties(Residenties).ToString());
             }
             catch (Exception ex)
             {
