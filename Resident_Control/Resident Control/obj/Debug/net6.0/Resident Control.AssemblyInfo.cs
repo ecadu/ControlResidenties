@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Resident Control")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed763e5fed318d29cebe816e7624a7d46d02ba06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86b155115e0f3dcd62197e47d00ead49db2cf723")]
 [assembly: System.Reflection.AssemblyProductAttribute("Resident Control")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Resident Control")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

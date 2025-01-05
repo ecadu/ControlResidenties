@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Resident_Control.Controllers.AutomarksController",
+    "Method": "CreateAutomark",
+    "RelativePath": "CreateAutomark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AutomarksName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Resident_Control.Controllers.AutomarksController",
+    "Method": "GetAllAutomarks",
+    "RelativePath": "GetAllAutomarks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Resident_Control.Controllers.ResidentiesController",
     "Method": "AddResidenties",
     "RelativePath": "Residenties/AddResidenties",

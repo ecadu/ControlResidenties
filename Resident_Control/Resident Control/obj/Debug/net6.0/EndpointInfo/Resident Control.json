@@ -5,6 +5,39 @@
     "version": "1.0"
   },
   "paths": {
+    "/CreateAutomark": {
+      "post": {
+        "tags": [
+          "Automarks"
+        ],
+        "parameters": [
+          {
+            "name": "AutomarksName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetAllAutomarks": {
+      "get": {
+        "tags": [
+          "Automarks"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/Residenties/GetAllResidenties": {
       "get": {
         "tags": [

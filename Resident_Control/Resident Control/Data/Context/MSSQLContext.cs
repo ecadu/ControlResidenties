@@ -26,5 +26,7 @@ namespace Resident_Control.Data.Context
         public DbSet<vehicles> vehicles { get; set; }
         public DbSet<ResidentiesVehicles> ResidentiesVehicles { get; set; }
 
+        public DbSet<Automakers> Automakers { get; set; }   
+
     }
 }
